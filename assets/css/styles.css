@@ -1,0 +1,33 @@
+#intro-text {
+  background-image:url("../../assets/img/image.jpg");
+  height:70vh;
+  width:100%;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-color:#ffffff;
+  margin-bottom:25px;
+  text-align: center;
+}
+
+#intro-text h1, #intro-text h2,
+#intro-text h3{
+  color: white;
+}
+
+@media (max-width: 480px) {
+  a#company-name.navbar-brand {
+    font-size:14px;
+  }
+}
+
+@media (min-width: 576px) {
+  a#company-name.navbar-brand {
+    font-size:24px;
+  }
+}
+
+footer ul.list-inline li {
+  display: inline-block;
+  margin-right: 10%;
+}
