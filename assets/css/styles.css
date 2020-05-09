@@ -36,3 +36,25 @@ footer ul.list {
   color: white;
 }
 
+section {
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/**
+ * Disable smooth scrolling when users have prefers-reduced-motion enabled
+ */
+ @media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
