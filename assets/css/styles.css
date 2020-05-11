@@ -58,3 +58,30 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
 }
+
+.logo-image {
+  height: 35px;
+  width: 35px;
+  margin-top: -5px;
+  margin-right: 8px;
+}
+
+@media (max-width: 320px) {
+  .logo-image {
+    height: 30px;
+    width: 20px;
+    margin-top: -3px;
+    margin-left: -10px;
+    margin-right: 2px;
+  }
+}
+
+a.nav-link:hover {
+  color: #0275d8 !important;
+}
+
+a.nav-link, a#company-name.navbar-brand,
+section#history h3, section#values h3,
+section#services h3, section#methods h3, section#chambers h3 {
+  font-family: 'Libre Baskerville', serif;
+}
