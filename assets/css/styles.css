@@ -85,3 +85,11 @@ section#history h3, section#values h3,
 section#services h3, section#methods h3, section#chambers h3 {
   font-family: 'Libre Baskerville', serif;
 }
+
+.text-primary, a.nav-link {
+  color: #000839 !important;
+}
+
+.text-red {
+  color: #f0134d;
+}
