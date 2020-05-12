@@ -4,6 +4,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 
@@ -49,6 +54,7 @@
 
 <body>
 
+    <!--
     <section id="custom-navbar">
         <nav class="navbar navbar-light navbar-expand-md">
             <div class="container-fluid">
@@ -63,11 +69,61 @@
                 <div class="collapse navbar-collapse" id="navcol-1">
                     <ul class="nav navbar-nav ml-auto">
                         <li class="nav-item" role="presentation"><a class="nav-link" href="#history">ABOUT US</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#values">VALUES</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#services">SERVICES</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#chambers">OUR CHAMBERS</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="#services">OUR SERVICES</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="#chambers">CONTACTS</a></li>
                     </ul>
                 </div>
+            </div>
+        </nav>
+    </section>
+    -->
+
+    <section id="custom-navbar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <img src="assets/img/handshake.svg" alt="logo image" class='logo-image'>
+            <a class="navbar-brand d-flex flex-column" href="#" id="company-name">J.K. Mbaabu &amp; Co. Advocates
+                <span class="text-left" id="company-name-subscript">since 1990</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            ABOUT US
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Our History</a>
+                        <a class="dropdown-item" href="#">Our Values</a>
+                        </div>
+                    </li>
+        
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            OUR SERVICES
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">What we do</a>
+                        <a class="dropdown-item" href="#">How we do it</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">MEDIATION CENTRE</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            CONTACTS
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Talk to us</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </nav>
     </section>
@@ -77,14 +133,10 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h1>J.K MBAABU VISION STATEMENT</h1>
+                    <h1 class='animate__animated animate__slideInLeft animate__delay-1s'>MOVING AHEAD AMICABLY</h1>
                 </div>
             </div>
-            <div class="row">
-                <div class="col">
-                    <h2>J.K Mbaabu Motto</h2>
-                </div>
-            </div>
+
         </div>
     </section>
 
@@ -139,7 +191,7 @@
                     <div class="card text-center my-1 pt-0">
                         <div class="card-body">
                             <span class="card-title">
-                                <img src="assets/img/antique.png" alt="Integrity image" height="60" width="60">
+                                <img src="assets/img/key.png" alt="Integrity image" height="60" width="60">
                                
                             </span>
                             <p class="card-text mt-2 text-red">Integrity</p>
@@ -151,7 +203,7 @@
                     <div class="card text-center my-1 pt-0">
                         <div class="card-body">
                             <span class="card-title">
-                                <img src="assets/img/business.png" alt="Respect image" height="60" width="60">
+                                <img src="assets/img/manner.png" alt="Respect image" height="60" width="60">
                                
                             </span>
                             <p class="card-text mt-2 text-red">Respect</p>
@@ -232,7 +284,7 @@
                     <div class="card text-center my-1">
                         <div class="card-body">
                             <span class="card-title">
-                                <img src="assets/img/balance.png" alt="Respect image" height="60" width="60">
+                                <img src="assets/img/rental-car.png" alt="Respect image" height="60" width="60">
                                <h5 class="card-title mt-1 text-red">General Practice</h5>
                             </span>
                             <p class="card-text mt-2">
