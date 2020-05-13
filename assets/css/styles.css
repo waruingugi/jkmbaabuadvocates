@@ -104,7 +104,7 @@ a#navbarDropdown.nav-link, a.nav-link {
 }
 
 a.nav-link, a#company-name.navbar-brand,
-section#history h3, section#values h3,
+section#history h3, section#values h3, section#mediation h3,
 section#services h3, section#methods h3, section#chambers h3 {
   font-family: 'Libre Baskerville', serif;
 }
@@ -131,14 +131,14 @@ img#contact-image {
 div#contact-card {
   margin-right: -10rem;
   height: 7.6rem;
-  margin-left: 5rem;
+  margin-left: 4rem;
 }
 
 #contact-card .card-body{
   padding: 0.3rem 0.3rem;
 }
 
-@media (max-width: 900px) {                  
+@media (max-width: 1200px) {                  
   div#contact-card {
      display: none;
   }
@@ -153,4 +153,41 @@ div#contact-card {
   color: #f0134d;
   background-color: #ffffff;
   border: 1px solid #f0134d;
+}
+
+.btn-blue{
+  color: #ffffff;
+  background-color: #000839;
+}
+
+/*
+.btn-blue:hover {
+  color: #000839;
+  background-color: #ffffff;
+  border: 1px solid #000839;
+}
+*/
+
+.btn-blue:hover {
+  color: #ffffff;
+  background-color: #f0134d;
+}
+
+.bg-blue {
+  background-color: #000839;
+}
+
+@media (min-width: 1000px) and (max-width: 1300px){                  
+  div#contact-card {
+    margin-right: -1rem;
+    height: 7.6rem;
+  }
+}
+
+
+#services hr, #mediation hr, #values hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid #fff !important;
 }
