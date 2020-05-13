@@ -10,9 +10,9 @@
   text-align: center;
 }
 
-#intro-text h1, #intro-text h2,
-#intro-text h3{
+#intro-text h1, #intro-text h2 {
   color: white;
+  font-family: 'Petit Formal Script', cursive;
 }
 
 @media (max-width: 480px) {
