@@ -121,3 +121,36 @@ section#history, section#methods {
   text-align: justify;
   text-justify: inter-word;
 }
+
+img#contact-image {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 5px;
+}
+
+div#contact-card {
+  margin-right: -10rem;
+  height: 7.6rem;
+  margin-left: 5rem;
+}
+
+#contact-card .card-body{
+  padding: 0.3rem 0.3rem;
+}
+
+@media (max-width: 900px) {                  
+  div#contact-card {
+     display: none;
+  }
+}
+
+.btn-red {
+  color: #ffffff;
+  background-color: #f0134d;
+}
+
+.btn-red:hover {
+  color: #f0134d;
+  background-color: #ffffff;
+  border: 1px solid #f0134d;
+}
