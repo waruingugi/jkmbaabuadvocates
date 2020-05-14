@@ -17,7 +17,7 @@
 
 @media (max-width: 480px) {
   a#company-name.navbar-brand {
-    font-size:12px;
+    font-size:14px;
   }
 }
 
@@ -160,14 +160,6 @@ div#contact-card {
   background-color: #000839;
 }
 
-/*
-.btn-blue:hover {
-  color: #000839;
-  background-color: #ffffff;
-  border: 1px solid #000839;
-}
-*/
-
 .btn-blue:hover {
   color: #ffffff;
   background-color: #f0134d;
@@ -184,14 +176,12 @@ div#contact-card {
   }
 }
 
-#services hr, #mediation hr, #values hr {
+#services hr, #mediation hr, #values hr, #message hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
   border: 0;
   border-top: 1px solid #fff !important;
 }
-
-
 
 div#contacts {
   font-size: 14px;
