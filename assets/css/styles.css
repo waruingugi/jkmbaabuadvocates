@@ -216,3 +216,16 @@ div#contacts a:hover{
     justify-content: center!important;
   }
 }
+
+#glassy-text {
+  text-align: center;
+  padding: 15px 5px;
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  #glassy-text {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.07);
+  }
+}
