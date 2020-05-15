@@ -219,7 +219,7 @@ div#contacts a:hover{
 
 #glassy-text {
   text-align: center;
-  padding: 15px 5px;
+  padding: 15px 3px;
 }
 
 @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
