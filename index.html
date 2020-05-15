@@ -152,7 +152,9 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h1 class='font-italic animate__animated animate__slideInLeft animate__delay-1s animate__slower'>Moving ahead amicably</h1>
+                    <div id="glass">
+                        <h1 class='font-italic animate__animated animate__slideInLeft animate__delay-1s animate__slower'>Moving ahead amicably</h1>
+                    </div>
                 </div>
             </div>
 
@@ -428,7 +430,7 @@
 
             <div class="row justify-content-center">
                 <div class="col-sm-12 col-md-8">
-                    <form>
+                    <form action="https://formspree.io/maypnrjp" method="POST">
                         <div class="form-row">
                             <div class="form-group col-md-6">
                                 <label for="name" class="text-white">Your Name</label>
@@ -438,7 +440,7 @@
                                             <i class="fa fa-user"></i>
                                         </div>
                                     </div>
-                                    <input type="text" class="form-control">
+                                    <input type="text" class="form-control" name="user_name">
                                 </div>
                             </div>
 
@@ -450,14 +452,14 @@
                                             <i class="far fa-envelope"></i>
                                         </div>
                                     </div>
-                                    <input type="email" class="form-control" id="email" placeholder="Email" required>
+                                    <input type="email" class="form-control" id="email" placeholder="Email" name="user_email" required>
                                 </div>
                             </div>
                         </div>
 
                         <div class="form-group">
                             <label for="message" class="text-white">Message</label>
-                            <textarea id="message" class="form-control" rows="3" required></textarea>
+                            <textarea id="message" class="form-control" rows="3" name="message" required></textarea>
                         </div>
 
                         <button type="submit" class="btn btn-red">

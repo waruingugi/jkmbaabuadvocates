@@ -139,9 +139,19 @@ div#contact-card {
   padding: 0.3rem 0.3rem;
 }
 
+/*
 @media (max-width: 1200px) {                  
   div#contact-card {
      display: none;
+  }
+}
+*/
+
+@media (max-width: 1200px) {                  
+  div#contact-card {
+    margin-right: auto;
+    height: 7.6rem;
+    margin-left: auto;
   }
 }
 
